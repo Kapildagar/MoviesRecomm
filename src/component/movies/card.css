@@ -1,0 +1,68 @@
+.card{
+    position: relative;
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+   height: 350px;
+   margin: 10px 5px;
+   border-radius: 20px;
+   border: 2px solid white;
+}
+
+
+.imgs{
+    width: 200px;
+}
+img{
+    width: 100%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.moviecontent{
+    position: absolute;
+    background: linear-gradient(to right, #000000, #434343);
+    bottom: 0;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    padding: 5px;
+   
+}
+.card:hover{
+    scale: 1.06;
+    transition: scale ease-in-out 2s;
+}
+.title{
+    color: white;
+  
+}
+
+.rating
+{   
+    color: white;
+    top: 24px;
+    display: flex;
+}
+
+.overview
+{
+   color: white;
+}
+
+/* home css styling */
+.container{
+    display: flex;
+    overflow-x:scroll;
+    margin-left: 30px;
+}
+.container::-webkit-scrollbar{
+    width: 0px;
+}
+/* movieslist */
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,19 @@
+.img{
+    max-width: 200px;
+    width: 150px;
+    min-width: 100px;
+    height: 30px;
+}
+.haeder{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 2px solid white;
+}
+
+.link{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
